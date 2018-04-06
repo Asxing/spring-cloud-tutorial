@@ -1,0 +1,16 @@
+info:
+  name: feign-eureka-server
+server:
+  port: 58080
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:58080/eureka
+spring:
+  application:
+    name: feign-eureka-server
+
+
