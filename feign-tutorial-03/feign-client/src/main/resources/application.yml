@@ -1,0 +1,19 @@
+info:
+  name: feign-client
+server:
+  port: 58082
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:58080/eureka
+
+feign:
+  hystrix:
+    enabled: true
+
+spring:
+  application:
+    name: feign-client
+debug: true
