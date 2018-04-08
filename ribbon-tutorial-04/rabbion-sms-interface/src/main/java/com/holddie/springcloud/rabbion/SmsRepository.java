@@ -1,4 +1,4 @@
-package com.holddie.springcloud.feign.smsinterface;
+package com.holddie.springcloud.rabbion;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
@@ -10,5 +10,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
  * @date 2018/4/6 18:43
  */
 @RepositoryRestResource(collectionResourceRel = "sms",path = "sms")
-public interface SmsController extends PagingAndSortingRepository<SmsdomainEntity,Long> {
+public interface SmsRepository extends PagingAndSortingRepository<SmsdomainEntity,Long> {
 }

@@ -3,13 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>feign-tutorial-03</artifactId>
+        <artifactId>ribbon-tutorial-04</artifactId>
         <groupId>com.holddie.springcloud</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>feign-client</artifactId>
+    <artifactId>rabbion-client</artifactId>
+
     <dependencies>
         <!-- web项目 -->
         <dependency>
@@ -51,4 +52,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

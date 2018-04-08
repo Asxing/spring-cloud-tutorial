@@ -1,0 +1,27 @@
+info:
+  name: ribbon-sms-interface
+server:
+  port: 58081
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:58080/eureka
+spring:
+  application:
+    name: ribbon-sms-interface
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/cloud_tutorial?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      max-wait: 10000
+      max-active: 10
+      initial-size: 2
+debug: true
+
+
+
+

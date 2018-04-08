@@ -12,9 +12,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class SmsInterFaceApp {
+public class FeignSmsInterFaceApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(SmsInterFaceApp.class, args);
+        SpringApplication.run(FeignSmsInterFaceApp.class, args);
     }
 }
